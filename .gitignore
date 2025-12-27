@@ -1,0 +1,41 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+api
+*.test
+*.out
+
+# Go workspace file
+go.work
+
+# Environment files
+.env
+*.env
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+*.coverprofile
+coverage.html
+coverage.txt
+
+# Build artifacts
+/bin/
+/dist/
+/build/
+
+api
+.genkit
